@@ -45,6 +45,8 @@ function overturn(game, num){
     }
 }
 
-function moreinfo(game, num){
-    
+function moreinfo(game, img){
+    console.log(game, img)
+    window.location.href = "../../End/end.html?level="+game+"&img="+img
+    // console.log()
 }
